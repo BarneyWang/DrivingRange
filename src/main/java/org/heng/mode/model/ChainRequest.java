@@ -1,10 +1,12 @@
 package org.heng.mode.model;
+
+
 /**
  * 责任链model
  * @author wangdi5
  *
  */
-public class ChainRequest {
+public abstract class ChainRequest {
 
 	private String type;
 
@@ -16,8 +18,9 @@ public class ChainRequest {
 		return type;
 	}
 
-	public void execute() {
-		//request真正具体行为代码
-	}
+	/**
+	 * 处理流程
+	 */
+	public  abstract void execute();
 
 }

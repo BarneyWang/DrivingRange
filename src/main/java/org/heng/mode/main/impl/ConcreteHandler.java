@@ -22,7 +22,7 @@ public class ConcreteHandler implements ChainHandler {
 	public void handleRequest(ChainRequest request) {
 		
 		  if (request instanceof HelpRequest){
-			  System.out.println("helpRequest");
+			  request.execute();
 		  }else{
 			  System.out.println("else");
 			  successor.handleRequest(request);
