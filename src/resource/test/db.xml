@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<db>
+    <dataSourceCluster name="s">
+        <dataSourceInstance>
+            <write>true</write>
+            <read>true</read>
+            <database>sarrs</database>
+            <host>10.154.252.64</host>
+            <port>3306</port>
+            <user>sarrs</user>
+            <password>SDF123sdfa11!@#$</password>
+        </dataSourceInstance>
+    </dataSourceCluster>
+</db>
